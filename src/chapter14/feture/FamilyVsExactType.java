@@ -18,7 +18,7 @@ public class FamilyVsExactType {
     }
 
     public static void main(String[] args) {
-        // instanceof 会比较其继承关系
+        // instanceof 会比较其继承关系parFactories
         test(new Base());
         test(new Derived());
     }
