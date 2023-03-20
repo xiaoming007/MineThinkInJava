@@ -20,7 +20,10 @@ public class New {
     }
 
     public static void main(String[] args) {
+        System.out.println(New.map());
         Map<String,List<String>> sls = New.map();
+        sls.put("first",new ArrayList<>());
+        System.out.println(sls);
         Map<String,List<String>> slss = new HashMap<>();
     }
 }
